@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Unplugged</string>
+
+    <string-array name="activity_binario">
+        <item>Enigma 1 (Binário);1</item>
+        <item>Enigma 2 (Binário);2</item>
+        <item>Enigma 3 (Binário);3</item>
+        <item>Enigma 4 (Binário);4</item>
+        <item>Enigma 5 (Binário);5</item>
+        <item>Enigma 6 (Binário);6</item>
+        <item>Enigma 7 (Binário);7</item>
+        <item>Enigma 8 (Binário);8</item>
+        <item>Enigma 9 (Binário);9</item>
+        <item>Enigma 10 (Binário);10</item>
+    </string-array>
+    <string-array name="activity_pixel">
+        <item>Desafio 1 (Pixel);1</item>
+        <item>Desafio 2 (Pixel);2</item>
+        <item>Desafio 3 (Pixel);3</item>
+        <item>Desafio 4 (Pixel);4</item>
+
+    </string-array>
+
+    <string-array name="activity_2">
+        <item>Ligar Led Serial;ligarledserial.ino.standard.hex;ligarledserial.ino;LED_Botao.prot;LED_Botao_Serial</item>
+        <item>Piscar Led Serial;Piscar_LED_Serial.ino.standard.hex;Piscar_LED_Serial.ino;Piscar_LED_Serial.prot;Piscar_LED_Serial</item>
+
+    </string-array>
+
+    <string name="rate_title">Avaliar Aplicação</string>
+    <string name="rate_description">Gostou do App. Avalie o Unplugged </string>
+    <string name="rate_cancel">Cancela</string>
+    <string name="rate_ok">Avaliar Agora</string>
+
+
+    <string name="rate_title_msg">Unplugged</string>
+    <string name="rate_description_msg_ok">Parabéns você acertou!!!</string>
+    <string name="rate_description_msg_erro">Tente Novamente!!! </string>
+    <string name="rate_cancel_msg">Cancela</string>
+    <string name="rate_ok_msg">ok</string>
+    <string name="binario_title">Enigma Binário</string>
+    <string name="pixel_title">Desafio Pixel</string>
+</resources>

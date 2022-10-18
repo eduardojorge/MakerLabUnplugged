@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="#0097a7">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/tela"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageButton
+        android:id="@+id/imageViewBinario"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginStart="28dp"
+        android:background="#0097a7"
+        android:scaleType="fitXY"
+        android:src="@drawable/botaobinario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <ImageButton
+        android:id="@+id/imageViewPixel"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginStart="180dp"
+        android:background="#0097a7"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/botaopixel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <FrameLayout
+        android:layout_width="395dp"
+        android:layout_height="124dp"
+        android:background="#070707"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewBinarioTrofeu"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/trofeubranco"
+
+            tools:layout_editor_absoluteY="1dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="70dp"
+            android:text="Binário"
+            android:textColor="#dd9c12"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageViewPixelTrofeu"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="255dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/trofeubranco"
+
+            tools:layout_editor_absoluteY="1dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="70dp"
+            android:text="Pixel"
+            android:textColor="#dd9c12"
+            android:textSize="12dp" />
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
+

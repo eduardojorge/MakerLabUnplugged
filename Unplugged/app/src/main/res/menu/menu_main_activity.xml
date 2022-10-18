@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Mainactivity">
+
+    <item android:id="@+id/binario_menu" android:title="@string/binario_title"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/pixel_menu" android:title="@string/pixel_title"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+
+    <item android:id="@+id/app_rate" android:title="@string/rate_title"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+
+
+
+
+
+</menu>

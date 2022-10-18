@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097a7">
+
+    <ImageButton
+        android:id="@+id/imageButtonTabuleiro"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:scaleType="center"
+
+        android:background="#0097a7"
+
+        android:src="@drawable/baseline_fiber_manual_record_white_18dp" />
+
+
+</LinearLayout>
